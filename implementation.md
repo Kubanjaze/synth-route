@@ -41,3 +41,8 @@ Outputs: synth_routes.json
 | Est. cost | $0.0032 |
 
 Key finding: Claude correctly identified amide coupling as the highest-yielding primary route, with SNAr and Friedel-Crafts as lower-yield alternatives.
+
+## Risks (resolved)
+- Synthesis routes may be chemically implausible — Claude proposed reasonable reactions (amide coupling, SNAr, Friedel-Crafts)
+- Yield estimates may be inaccurate — acknowledged as estimates, not validated experimentally
+- Routes for different compounds may be identical — observed (halogen substitution doesn't change route)
